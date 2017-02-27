@@ -19,4 +19,5 @@ public:
     char getMiddlename() {return middlename;}
     char getTitle() {return title;}
     char getHerkunft() {return herkunft;}
+    void setHerkunft(char wahl) {herkunft=wahl;}
 };
