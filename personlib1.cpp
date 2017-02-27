@@ -3,7 +3,7 @@ using namespace std;
 #include "person1.h"
 
 void askEnglish(
-struct person  *partner)
+class person  *partner)
 {
 cout << "What's your first name?";
 cin >> partner->vorname;
@@ -28,7 +28,7 @@ case 'o':
 
 
 void frageDeutsch(
-struct person    *partner)
+class person    *partner)
 {
 cout << "Wie lautet Ihr Vorname?";
 cin >> partner->vorname;
@@ -52,7 +52,7 @@ case 'o':
 }
 
 void greetEnglish(
-struct person    *partner)
+class person    *partner)
 {
 cout << "Welcome, ";
 if (partner->herkunft=='o') cout << partner->titel << " ";
@@ -63,7 +63,7 @@ cout << partner->nachname << "!" << endl;
 }
 
 void gruesseDeutsch(
-struct person    *partner)
+class person    *partner)
 {
 cout << "Willkommen, ";
 if (partner->herkunft=='o') cout << partner->titel << " ";
