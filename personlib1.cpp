@@ -2,7 +2,7 @@
 using namespace std;
 #include "person1.h"
 
-void askEnglish(
+void person::askEnglish(
 class person  *partner)
 {
 cout << "What's your first name?";
@@ -27,7 +27,7 @@ case 'o':
 }
 
 
-void frageDeutsch(
+void person::frageDeutsch(
 class person    *partner)
 {
 cout << "Wie lautet Ihr Vorname?";
@@ -51,7 +51,7 @@ case 'o':
    }
 }
 
-void greetEnglish(
+void person::greetEnglish(
 class person    *partner)
 {
 cout << "Welcome, ";
@@ -62,7 +62,7 @@ else if (partner->herkunft=='a') cout << partner->middlename << " ";
 cout << partner->nachname << "!" << endl;
 }
 
-void gruesseDeutsch(
+void person::gruesseDeutsch(
 class person    *partner)
 {
 cout << "Willkommen, ";
