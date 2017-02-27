@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
- class person person ;
+ class person person = { 0 } ;
 char sprache;
 
 cout << "Wählen Sie Ihre Sprache:" << endl;
@@ -34,11 +34,11 @@ case 'd':
 default:
    cout << "I do not know your language / Maybe you know English?";
    person.askEnglish(&person);
-   person.sprache='e';
+   sprache='e';
    break;
    }
 
-switch(person.sprache)
+switch(sprache)
    {
 case 'e':
    person.greetEnglish(&person);
