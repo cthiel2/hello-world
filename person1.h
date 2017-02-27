@@ -13,4 +13,10 @@ public:
     void frageDeutsch(struct person *partner);
     void greetEnglish(struct person *partner);
     void gruesseDeutsch(struct person *partner);
+    char getVorname() {return vorname;}
+    char getNachname() {return nachname;}
+    char getPatronym() {return patronym;}
+    char getMiddlename() {return middlename;}
+    char getTitle() {return title;}
+    char getHerkunft() {return herkunft;}
 };
